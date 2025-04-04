@@ -132,7 +132,24 @@ with col2:
 ใน Terminal VS Code:
 
 streamlit run app/dashboard.py
+
 ✅ จะเปิดเบราว์เซอร์แสดง Dashboard ของคุณทันที
+
+ถ้าไม่เปิด ต้อง Activate virtual environment ก่อน
+
+พิมพ์คำสั่ง .\venv\Scripts\activate ใน Terminal
+จากนั้นจะเห็น (venv) ขึ้นที่ด้านหน้าของบรรทัดคำสั่ง
+แล้วลองรันอีกครั้ง:
+streamlit run app/dashboard.py
+
+ใน Terminal จะปรากฎข้อความ
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8502
+  Network URL: http://192.168.1.125:8502
+
+แล้วจะแสดง dashboard ในหน้าต่างใหม่
+
 -----------------
 
 
